@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            padding: 20px;
+        }
+
+        .container div{
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+            margin: 10px;
+            background-image: url('./pxfuel.jpg');
+            background-repeat: no-repeat;
+            border: 10px dashed blue;
+        }
+
+        .container h1{
+            font-size: 5rem;
+        }
+
+        .b1{
+            background-blend-mode: normal;
+            color: aquamarine;
+        }
+
+        .b2{
+            background-blend-mode: multiply;
+            color: aquamarine;
+        }
+
+        .b3{
+            background-blend-mode: hard-light;
+            color: aquamarine;
+        }
+
+        .b4{
+            background-blend-mode: difference;
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background-origin</h1>
+
+    <div class="container">
+        <div class="b1">
+            <h1>Border-Box</h1>
+        </div>
+        <div class="b2">
+            <h1>Padding-Box</h1>
+        </div>
+        <div class="b3">
+            <h1>Content-Box</h1>
+        </div>
+        <div class="b4">
+            <h1>Content-Box</h1>
+        </div>
+    </div>
+</body>
+</html>

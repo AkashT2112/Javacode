@@ -1,0 +1,21 @@
+
+    TYPE OF SELECTORS
+
+    1. universal selector (*)
+    2. html tag selector 
+    3. class selector (.)
+    4. id selector (#)
+    5. group selector (,)
+    6. compound selector
+    7. combinators
+      a) decendent selector (space)
+      b) chil selector (>)
+      c) general sibling selector (~)
+      d) adjecent sibling selector (+)
+    8. attribute selector
+      a) [attr]
+      b) [attr=value]
+      c) [attr ~ = value]
+      d) [attr ^ = value]
+      e) [attr $ = value]
+      f) [attr * = value]

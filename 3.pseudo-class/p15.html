@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* n=even numbers */
+        ol li:nth-of-type(2n){
+            color: gold;
+        }
+
+        dd:nth-last-of-type(2n-1){
+            color: maroon;
+        }
+    </style>
+</head>
+<body>
+       <h1>nth-last-of-type</h1>    
+
+       <p>colors names</p>
+
+       <ol reversed>
+           <li>green</li>
+           <li>black</li>
+           <li>blue</li>
+           <li>red</li>
+           <li>orange</li>
+           <li>white</li>
+       </ol>
+
+       <hr>
+
+       <h1>nth-of-last-type</h1>
+       <dl>
+        <dt>fruits</dt>
+        <dd>apple</dd>
+        <dd>mangoes</dd>
+        <dd>pineapple</dd>
+        <dt>vegetables</dt>
+        <dd>tomato</dd>
+        <dd>onion</dd>
+        <dd>carrot</dd>
+        </dl>
+</body>
+</html>

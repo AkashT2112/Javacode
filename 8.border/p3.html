@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container div{
+            width: 300px;
+            height: 100px;
+            margin: 1em;
+        }
+
+        .b1{
+            border-block-start: solid;
+            border-block-end: dotted;
+            writing-mode: horizontal-tb;
+        }
+
+        .b2{
+            border-block-start: inset;
+            border-block-start-color: yellowgreen;
+            border-block-end: ridge;
+            border-block-end-color: saddlebrown;
+            writing-mode: vertical-lr;
+        }
+
+        .b3{
+            border-block-start: solid;
+            border-block-start-color: darkblue;
+            border-block-start-style: double;
+            border-block-start-width: 10px;
+            border-block-end: outset;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Border-Block</h1>
+
+    <section class="container">
+        <div class="b1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+
+        <br>
+
+        <div class="b2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+
+        <br>
+
+        <div class="b3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+    </section>
+</body>
+</html>

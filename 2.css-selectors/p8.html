@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-1,.container-2,.container-3{
+              /* view port height */
+            height: 80vh;
+            /* view pot width */
+            width: 100vw;
+        }
+
+        /* decendent */
+        .container-1 .card{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            color: royalblue;
+            padding: 20px;
+        }
+        /* child combinator (>) */
+        .container-2>.card{
+            height: 200px;
+            width: 200px;
+            border: 2px solid rgb(11, 241, 230);
+            color: rgb(219, 10, 97);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>decendent (space) and child (>)</h1>
+
+    <h2>decendent comninator</h2>
+    <section class="container-1">
+        <div class="card">
+            <h2>child</h2>
+            <div class="card">
+                <h3>grand child</h3>
+                <div class="card">
+                    <h3>great grand child</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-2">
+        <div class="card">
+            <h2>child</h2>
+            <div class="card">
+                <h3>grand child</h3>
+                <div class="card">
+                    <h3>great grand child</h3>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    
+    
+</body>
+</html>

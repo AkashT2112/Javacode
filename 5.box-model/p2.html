@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 400px;
+            border: 2px solid salmon;
+        }
+
+        .b1,.b2{
+            margin: 20px;
+            padding: 20px;
+            width: 350px;
+            border: 2px solid green;
+        }
+
+        .b1{
+            box-sizing: border-box;
+        }
+
+        .b2{
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Sizing</h1>
+
+    <section>
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae alias nostrum molestiae saepe eaque vel at temporibus. Autem laborum placeat exercitationem! Corrupti quod obcaecati voluptate, veniam porro sit itaque eius!
+        </div>
+
+        <div class="b2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus placeat modi minima alias neque! Minus facere culpa velit suscipit necessitatibus non, nostrum animi totam excepturi nulla consectetur. Repudiandae, unde minima.
+        </div>
+
+    </section>
+</body>
+</html>
