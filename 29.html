@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <label for="name">User Name</label>
+        <input type="name" name="name" id="name">
+    </div>
+
+    <div>
+        <label for="name">Passwoed</label>
+        <input type="name" name="name" id="name">
+    </div>
+
+    <div>
+        <label for="name">City Of Employment</label>
+        <input type="name" name="name" id="name">
+    </div>
+<br>
+    <form action="">
+        <div>
+            <label for="tech">Web Server</label>
+            <select name="tech" id="tech">
+                <option value="null">--Choose A Server--</option>
+                <option value="student">server 1</option>
+                <option value="work">Server 2</option>
+                <option value="work">Server 3</option>
+            </select>
+        </div>
+<br>
+<h5>Please Specify Your Role</h5>
+        <form action="">
+            <div>
+                <label for="gender">
+                    <input type="radio" name="gender" id="gender" 
+                    value="male">Admin <br>
+                    <input type="radio" name="gender" id="gender" value="feale">Engineer <br>
+                    <input type="radio" name="gender" id="gender" value="others">Manager <br> 
+                    <input type="radio" name="gender" id="gender" value="others">Gust
+                </label>
+            </div>
+
+            <h5>Single Sign-on The Following</h5>
+                <form action="">
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Mail
+                            <p id="status"></p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Payroll
+                            <p id="status"></p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Self-Service
+                            <p id="status"></p>
+                        </label>
+                    </div>
+
+                    <button>Login</button>
+                    <button type="button">Reset</button>
+
+</body>
+</html>

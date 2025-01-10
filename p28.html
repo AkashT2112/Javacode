@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Registeration Form</h1>
+            <div>
+                <label for="name">First Name</label>
+                <input type="name" name="name" id="name" required placeholder="Enter First Name">
+            </div>
+    
+            <div>
+                <label for="name">Last Name</label>
+                <input type="name" name="name" id="name" required placeholder="Enter Last Name"
+                minlength="2" maxlength="8">
+            </div>
+    
+            <div>
+                <label for="name">Email</label>
+                <input type="name" name="name" id="name" required placeholder="Enter email Address">
+            </div>
+
+            <h4>Gender</h4>
+            <form action="">
+                <div>
+                    <label for="gender">
+                        <input type="radio" name="gender" id="gender" 
+                        value="male">male <br>
+                        <input type="radio" name="gender" id="gender" value="feale">female <br>
+                        <input type="radio" name="gender" id="gender" value="others">others
+                    </label>
+                </div>
+
+                <div>
+                    <label for="name">Age</label>
+                    <input type="number" name="Age" id="Age">
+                </div>
+
+                <h4>Preference</h4>
+                <form action="">
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Acrylic Painting
+                            <p id="status"></p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Oil Painting
+                            <p id="status"></p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="agree">
+                            <input type="checkbox" name="agree" id="agree" onchange="handler()"> Water Painting
+                            <p id="status"></p>
+                        </label>
+                    </div>
+                </form>
+
+                <form action="">
+                    <div>
+                        <label for="tech">Select occupation</label>
+                        <select name="tech" id="tech">
+                            <option value="null">Choose Anything</option>
+                            <option value="student">Student</option>
+                            <option value="work">Working</option>
+                        </select>
+                    </div>
+
+    <form action="">
+        <div>
+            <label for="">Bio</label><br>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+    </form>
+
+    <button>Submit</button>
+    <button type="button">value</button>
+
+</body>
+</html>

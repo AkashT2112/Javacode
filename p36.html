@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #txt {
+            border: 2px solid #222 ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text on canvas</h1>
+
+    <canvas id="txt" width="300" height="300"></canvas>
+
+    <script>
+        let can=document.getElementById("txt")
+        let ctx=can.getContext("2d")
+        ctx.fornt="32px monospace";        
+        ctx.strokeText("welcome to HTML",30,40);
+
+        ctx.fornt="40px cursive";
+        ctx.fillStyle="red";
+        ctx.fillText("welcome to web",50,60);
+        
+        ctx.fornt="60px san-serif";
+        ctx.fillStyle="green";
+        ctx.fillText("Thank you",10,10);
+
+    </script>
+</body>
+</html>
